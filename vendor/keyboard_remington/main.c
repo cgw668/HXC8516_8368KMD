@@ -35,7 +35,7 @@ int main (void) {
 #if(MODULE_WATCHDOG_ENABLE)
 		wd_clear();
 #endif
-		main_loop ();
+		main_loop ();/////
 	}
 }
 
